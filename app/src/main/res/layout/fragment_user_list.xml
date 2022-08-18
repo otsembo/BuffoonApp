@@ -23,7 +23,7 @@
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
             android:orientation="vertical"
             tools:listitem="@layout/user_item"
-            app:userAdapter="@{viewModel.userAdapter}"/>
+            app:userList="@{viewModel.userList}"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

@@ -43,7 +43,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/edtId"
                 android:inputType="number"
-                app:numberData="@={viewModel.userData.id}"/>
+                app:numberData="@{viewModel.userData.id}"/>
 
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -91,7 +91,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/edtAge"
                 android:inputType="number"
-                app:numberData="@={viewModel.userData.age}"/>
+                app:numberData="@{viewModel.userData.age}"/>
 
 
         </com.google.android.material.textfield.TextInputLayout>
