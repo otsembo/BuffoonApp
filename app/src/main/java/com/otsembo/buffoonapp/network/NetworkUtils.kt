@@ -19,4 +19,5 @@ object NetworkUtils {
         .build()
 
     val userService: UserService = retrofit.create(UserService::class.java)
+    val tweetService: TweetService = retrofit.create(TweetService::class.java)
 }

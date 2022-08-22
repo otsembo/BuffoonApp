@@ -18,4 +18,20 @@ class UserListVM : ViewModel() {
             userList.value = users
         }
     }
+
+    fun getUserTweets() {
+        viewModelScope.launch {
+            val users = NetworkUtils.userService.getUsers()
+            val tweetData = NetworkUtils.tweetService.getTweets()
+            // LOGIC HERE
+        }
+    }
+
+    fun getTitleTweets(title: String) {
+        viewModelScope.launch {
+            val users = NetworkUtils.userService.getUsers()
+            val tweetData = NetworkUtils.tweetService.getTweets()
+            // OTHER LOGIC HERE
+        }
+    }
 }
