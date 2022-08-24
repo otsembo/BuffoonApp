@@ -19,7 +19,7 @@ class AddUserVM : ViewModel() {
 
     init {
         viewModelScope.launch {
-            repository.getTweetsFromUser(0L)
+            // repository.getTweetsFromUser(0L)
         }
     }
 
@@ -41,6 +41,4 @@ class AddUserVM : ViewModel() {
             }
         }
     }
-
-
 }
