@@ -20,21 +20,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="8dp">
+            android:padding="@dimen/card_padding">
 
             <TextView
+                style="@style/TextFont"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20sp"
                 android:textStyle="bold"
                 tools:text="@tools:sample/full_names"
                 android:id="@+id/txtID"
                 app:numberDataText="@{user.id}"/>
 
             <TextView
+                style="@style/TextFont"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20sp"
                 android:textStyle="bold"
                 tools:text="@tools:sample/full_names"
                 android:id="@+id/txtName"

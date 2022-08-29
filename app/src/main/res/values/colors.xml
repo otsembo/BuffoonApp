@@ -1,6 +1,7 @@
 
 <resources>
-    <color name="seed">#690005</color>
+    <color name="white">#FFFFFF</color>
+    <color name="seed">#3C852C</color>
     <color name="md_theme_light_primary">#AB342D</color>
     <color name="md_theme_light_onPrimary">#FFFFFF</color>
     <color name="md_theme_light_primaryContainer">#FFDAD6</color>
