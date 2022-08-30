@@ -3,12 +3,12 @@
 
     <item
         android:id="@+id/addUserFragment"
-        android:title="USER DATA"
+        android:title="@string/menu_one"
         android:icon="@drawable/ic_user_data"/>
 
     <item
         android:id="@+id/userListFragment"
-        android:title="USER LIST"
+        android:title="@string/menu_two"
         android:icon="@drawable/ic_list"/>
 
 </menu>

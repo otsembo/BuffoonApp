@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">BuffoonApp</string>
+    <string name="menu_one">USER DATA</string>
+    <string name="menu_two">USER LIST</string>
 </resources>

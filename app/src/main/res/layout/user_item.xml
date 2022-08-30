@@ -43,8 +43,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20sp"
                 android:textStyle="bold"
+                android:textAppearance="@style/PersonalText"
                 tools:text="@tools:sample/full_names"
                 android:id="@+id/txtEmail"
                 android:text="@{user.email}"/>
@@ -52,10 +52,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20sp"
                 android:textStyle="bold"
                 tools:text="@tools:sample/full_names"
                 android:id="@+id/txtAge"
+                android:textAppearance="@style/TextAppearance.Material3.DisplayLarge"
                 app:numberDataText="@{user.age}"/>
 
             <Button
